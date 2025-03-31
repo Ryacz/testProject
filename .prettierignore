@@ -1,0 +1,10 @@
+# 必排除项
+node_modules
+dist
+coverage
+*.md
+*.config.*
+package*.json
+LICENSE
+README.md
+

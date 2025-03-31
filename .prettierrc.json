@@ -1,0 +1,13 @@
+{
+    "singleQuote": true,
+    "semi": false,
+    "bracketSpacing": true,
+    "htmlWhitespaceSensitivity": "ignore",
+    "endOfLine": "auto",
+    "trailingComma": "all",
+    "tabWidth": 2,
+    "vueIndentScriptAndStyle": true, 
+    "printWidth": 120,                
+    "jsxSingleQuote": true,    
+    "plugins": ["prettier-plugin-vue"]        
+  }
