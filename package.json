@@ -8,7 +8,8 @@
     "build": "vue-tsc -b && vite build",
     "format": "prettier --write src",
     "format:check": "prettier --check src ",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prepare": "husky install"
   },
   "dependencies": {
     "husky": "^9.1.7",
@@ -21,6 +22,7 @@
     "@vue/tsconfig": "^0.7.0",
     "typescript": "~5.7.2",
     "vite": "^6.2.0",
-    "vue-tsc": "^2.2.4"
+    "vue-tsc": "^2.2.4",
+    "husky": "^8.0.0"
   }
 }
