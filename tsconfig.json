@@ -1,7 +1,13 @@
 {
-  "files": [],
-  "references": [
-    { "path": "./tsconfig.app.json" },
-    { "path": "./tsconfig.node.json" }
-  ]
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"] // 必须与 Vite/Webpack 的别名一致
+    },
+    "esModuleInterop": true, // 启用 ES 模块与 CommonJS 的互操作
+    "allowSyntheticDefaultImports": true, // 允许为 CommonJS 模块创建默认导入
+    "target": "ESNext",
+    "module": "es2020", // 关键配置项
+    "moduleResolution": "Node",
+  }
 }
